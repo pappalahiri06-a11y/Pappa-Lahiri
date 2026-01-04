@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free E-Book Funnel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f172a;
+        }
+        .book-mockup-perspective {
+            perspective: 1000px;
+        }
+        .book-mockup {
+            transform: rotateY(-20deg) rotateX(5deg);
+            box-shadow: 20px 20px 60px rgba(0,0,0,0.5);
+            transition: transform 0.3s ease;
+        }
+        .book-mockup:hover {
+            transform: rotateY(-10deg) rotateX(2deg);
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.11.0"
+  }
+}
+</script>
+</head>
+<body class="text-slate-200 antialiased">
+    <div id="root"></div>
+</body>
+</html>
